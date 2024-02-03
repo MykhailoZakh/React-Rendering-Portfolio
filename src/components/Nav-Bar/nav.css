@@ -1,0 +1,20 @@
+.navbar {
+  background-color: rgb(184, 214, 138);
+}
+
+.nav-item a {
+  color: black;
+  font-size: 18px;
+  border-radius: 5px;
+  /* border: 1px black solid; */
+}
+
+.nav-item a:hover {
+  transform: scale(1.2);
+  background-color: rgb(165, 193, 123);
+  color: rgb(81, 246, 191);
+}
+
+.nav-item a:active {
+  color: black;
+}
