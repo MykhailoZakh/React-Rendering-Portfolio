@@ -1,6 +1,10 @@
 import {useState} from "react";
+// importing functions for rendering
+import Description from "./Description";
+import LinkDescription from "./LinkDescription";
+
+// Card function to print Project cards in Portfolio screen
 export default function Card() {
-  const [link, setLink] = useState(false);
   const [desc, setDesc] = useState(true);
   return (
     <section
@@ -10,14 +14,19 @@ export default function Card() {
       <div className="card-header">
         <ul className="nav nav-pills card-header-pills">
           <li className="nav-item">
-            <button type="button" className="btn btn-dark">
+            <button
+              type="button"
+              className="btn btn-dark"
+              onClick={() => {
+                setDesc(!desc);
+              }}
+            >
               Description
             </button>
           </li>
           <li className="nav-item">
             <button
               onClick={() => {
-                setLink(!link);
                 setDesc(!desc);
               }}
               type="button"
@@ -28,21 +37,7 @@ export default function Card() {
           </li>
         </ul>
       </div>
-      <article
-        className=" d-flex flex-column justify-content-between gap-5 "
-        style={{visibility: link ? "visible" : "hidden"}}
-      >
-        <div className="card-body ">
-          <h2 className="">Project Name</h2>
-          <p className="">Small Description</p>
-        </div>
-        <div className="card-footer">
-          <img
-            src="public\github.svg"
-            className="me-3 rounded-circle git-link "
-          />
-        </div>
-      </article>
+      <LinkDescription isDescription={desc} />
     </section>
   );
 }
