@@ -1,0 +1,15 @@
+.footerIco {
+  margin-top: 20px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.footerIco:hover {
+  transform: scale(1.2);
+  box-shadow: 12px 8px 11px -3px rgba(0, 0, 0, 0.55);
+}
+
+.round {
+  border-radius: 52%;
+}
