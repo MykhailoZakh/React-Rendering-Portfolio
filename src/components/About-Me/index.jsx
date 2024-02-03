@@ -2,7 +2,11 @@ import "./about.css";
 export default function About() {
   return (
     <section>
-      <img src="public\mykhaportrait.jpg" alt="portrait" />
+      <img
+        src="public\mykhaportrait.jpg"
+        alt="portrait"
+        className="protfolio"
+      />
       <h2>About Me</h2>
       <p className="about">
         Meet Alex, a determined student who recently moved to America with a

@@ -1,5 +1,5 @@
 import "./portfolio.css";
-import Card from "./projectCard";
+import Card from "./ProjectCard";
 export default function Portfolio() {
   return (
     <section className="wrapper ">
