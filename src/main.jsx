@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.js';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.js";
 import "./index.css";
 
 // importing all components to render when hitting different roads
@@ -25,15 +25,15 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "/Portfolio",
+        path: "/portfolio",
         element: <Portfolio />,
       },
       {
-        path: "/Resume",
+        path: "/resume",
         element: <Resume />,
       },
       {
-        path: "/Contact",
+        path: "/contact",
         element: <Contact />,
       },
     ],

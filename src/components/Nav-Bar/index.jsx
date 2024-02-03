@@ -3,26 +3,26 @@ import "./nav.css";
 
 function NavBar() {
   return (
-    <nav className="navbar h-100 px-3 py-3">
+    <nav className="navbar px-3 py-3 fixed-top">
       <h2>Mykhailo Zakharkiv Portfolio</h2>
       <ul className="nav justify-content-end">
         <li className="nav-item">
-          <Link to="/" className="nav-link active">
+          <Link to="/" className="nav-link nav-a">
             About Me
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/Portfolio" className="nav-link active">
+          <Link to="/portfolio" className="nav-link nav-a">
             Portfolio
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/Resume" className="nav-link active">
+          <Link to="/resume" className="nav-link nav-a">
             Resume
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/Contact" className="nav-link ">
+          <Link to="/contact" className="nav-link nav-a">
             Contact Me
           </Link>
         </li>

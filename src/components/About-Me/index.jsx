@@ -4,7 +4,7 @@ export default function About() {
     <section>
       <img src="public\mykhaportrait.jpg" alt="portrait" />
       <h2>About Me</h2>
-      <p>
+      <p className="about">
         Meet Alex, a determined student who recently moved to America with a
         fervent passion for programming. Navigating the challenges of a new
         country and culture, Alex's eyes sparkle with the excitement of pursuing
