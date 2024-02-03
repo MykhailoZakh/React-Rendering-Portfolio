@@ -1,0 +1,14 @@
+.contact {
+  width: 500px;
+}
+
+.bg {
+  background-image: url("public/contactBG.jpg");
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.me {
+  color: green;
+}
