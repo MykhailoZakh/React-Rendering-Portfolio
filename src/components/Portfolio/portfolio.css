@@ -1,3 +1,4 @@
+/* Styles for Portfolio page */
 .card {
   border: none;
   transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
@@ -16,7 +17,8 @@
 
 .git-link {
   height: 60px;
-  background-image: url(/public/mono.avif);
+  background-color: #bdcad9;
+  background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
 }
 .git-link:hover {
   transform: scale(1.1);

@@ -4,6 +4,14 @@ const data = [
         groupName: 'Group Projects',
         projectArr: [
             {
+                key: 2,
+                name: 'Travel-Mate',
+                gitLink: 'https://github.com/MykhailoZakh/Travel-Mate',
+                smallDesc: "Front-End with Back-End Data Base travel app ",
+                languages: ['css.svg', 'handlebars.svg', 'js.svg', 'node.svg', 'sql.svg', 'sequelize.svg'],
+                bgImage: 'travel.png'
+            },
+            {
                 key: 1,
                 name: 'Your-Nutrition-Radar',
                 gitLink: 'https://github.com/MykhailoZakh/Your-Nutrition-Radar',
@@ -11,14 +19,7 @@ const data = [
                 languages: ['css.svg', 'html.svg', 'js.svg'],
                 bgImage: 'nutrition.png'
             },
-            {
-                key: 2,
-                name: 'Travel-Mate',
-                gitLink: 'https://github.com/MykhailoZakh/Travel-Mate',
-                smallDesc: "Front-End with Back-End Data Base travel app ",
-                languages: ['css.svg', 'handlebars.svg', 'js.svg', 'node.svg', 'sql.svg', 'sequelize.svg'],
-                bgImage: 'travel.png'
-            }
+
         ]
     },
     {
