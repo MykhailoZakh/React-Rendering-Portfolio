@@ -1,5 +1,13 @@
 .navbar {
-  background-color: rgb(184, 214, 138);
+  /* background-color: rgb(184, 214, 138);
+  background-image: url("/public/green.jpg"); */
+  background-color: #dbf26e;
+  background-image: linear-gradient(
+    319deg,
+    #dbf26e 0%,
+    #61fa74 37%,
+    #1cfdd6 100%
+  );
 }
 
 .nav-a {
@@ -11,8 +19,8 @@
 
 .nav-a:hover {
   transform: scale(1.2);
-  background-color: rgb(165, 193, 123);
-  color: rgb(81, 246, 191);
+  background-color: #dbf26e;
+  color: rgb(121, 105, 70);
 }
 
 .nav-a:active {

@@ -1,17 +1,21 @@
+// importing style.css
 import "./portfolio.css";
-import Card from "./ProjectCard";
+// importing rendering divs and data for projects
+import data from "../../../public/projectData/projects";
+import Group from "./Group";
+// function to print Portfolio page
 export default function Portfolio() {
+  const groupsArr = data.map((group) => (
+    <Group
+      key={group.key}
+      groupName={group.groupName}
+      projectArr={group.projectArr}
+    />
+  ));
   return (
     <section className="wrapper ">
-      <div className="container">
-        <h2 className="row">Name of the Group</h2>
-        <div className="row d-flex justify-content-around">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-        </div>
-      </div>
+      <h2>Portfolio</h2>
+      {groupsArr}
     </section>
   );
 }

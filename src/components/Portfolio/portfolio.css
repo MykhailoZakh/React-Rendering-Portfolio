@@ -4,7 +4,7 @@
   overflow: hidden;
   border-radius: 20px;
   min-height: 450px;
-  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 29px 5px rgba(0, 0, 0, 0.75);
 }
 .card-footer {
   background: none;
@@ -15,5 +15,38 @@
 }
 
 .git-link {
-  height: 30px;
+  height: 60px;
+  background-image: url(/public/mono.avif);
+}
+.git-link:hover {
+  transform: scale(1.1);
+  box-shadow: 11px 9px 9px 0px rgba(0, 0, 0, 0.75);
+}
+.cardH {
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 11px 9px 9px 0px rgba(0, 0, 0, 0.75);
+  background-color: #bdcad9;
+  background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
+}
+.img-arr {
+  height: 40px;
+}
+
+.small-desc {
+  font-size: 24px;
+  background-color: #e4e7eb;
+  border-radius: 10px;
+  box-shadow: 11px 9px 9px 0px rgba(0, 0, 0, 0.75);
+  background-color: #bdcad9;
+  background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
+}
+
+.h4 {
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 11px 9px 9px 0px rgba(0, 0, 0, 0.75);
+  background-color: #bdcad9;
+  background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
 }
