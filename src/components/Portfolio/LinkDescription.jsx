@@ -7,7 +7,7 @@ export default function LinkDescription({
   const imageArr = languages.map((img) => (
     <img
       key={Math.floor(Math.random() * 1000)}
-      src={`public/projectData/languagesIcons/${img}`}
+      src={`/public/projectData/languagesIcons/${img}`}
       className="me-3 img-arr "
     />
   ));
@@ -19,7 +19,7 @@ export default function LinkDescription({
           <h3 className="h4">GitHub link:</h3>
           <a href={gitLink}>
             <img
-              src="public\github.svg"
+              src="/public/github.svg"
               className="me-3 rounded-circle git-link "
             />
           </a>
