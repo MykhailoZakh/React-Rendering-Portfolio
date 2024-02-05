@@ -12,3 +12,8 @@
 .me {
   color: green;
 }
+
+.errMsg {
+  font-weight: lighter;
+  font-size: 19px;
+}

@@ -1,5 +1,34 @@
+import {useState} from "react";
 import "./contact.css";
 export default function Contact() {
+  const [name, setName] = useState(false);
+  const [email, setEmail] = useState(false);
+  const [text, setText] = useState(false);
+  // function to check name has more than 3 letters
+  const checkName = (e) => {
+    e.preventDefault();
+    if (e.target.value.length < 4) {
+      setName(true);
+    } else {
+      setName(false);
+    }
+  };
+  // function to check if email is correct
+  const checkEmail = (e) => {
+    e.preventDefault();
+
+    const emailCheck = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test(e.target.value);
+    console.log(emailCheck);
+    if (!emailCheck) {
+      setEmail(true);
+    } else {
+      setEmail(false);
+    }
+  };
+  const checkText = (e) => {
+    e.preventDefault();
+    !e.target.value ? setText(true) : setText(false);
+  };
   return (
     <section className="form-dark bg">
       <form className="card card-image contact my-5">
@@ -18,8 +47,14 @@ export default function Contact() {
               id="form-name"
               className="form-control "
               placeholder="yourname"
+              onBlur={checkName}
             />
             <label className="">Your name</label>
+            {name ? (
+              <p className="errMsg">Name should have more then 3 letters</p>
+            ) : (
+              <></>
+            )}
           </div>
 
           <div className="md-form form-floating mb-3">
@@ -28,8 +63,10 @@ export default function Contact() {
               id="form-email"
               className="form-control"
               placeholder="email"
+              onBlur={checkEmail}
             />
             <label className="">Your email</label>
+            {email ? <p className="errMsg">Please add valid Email</p> : <></>}
           </div>
 
           <div className="md-form mb-5 form-floating mb-3">
@@ -40,8 +77,10 @@ export default function Contact() {
               rows="2"
               className="form-control md-textarea "
               placeholder="massage"
+              onBlur={checkText}
             ></textarea>
             <label className="">Your message</label>
+            {text ? <p className="errMsg">Please add some text</p> : <></>}
           </div>
 
           <div className="row d-flex align-items-center">
