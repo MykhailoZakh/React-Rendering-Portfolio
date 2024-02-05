@@ -24,3 +24,10 @@
 .nav-a:active {
   color: black;
 }
+
+@media (max-width: 600px) {
+  .nav-a {
+    background-color: #dbf26e;
+    margin: 5px;
+  }
+}

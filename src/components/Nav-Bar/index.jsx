@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav className="navbar px-3 py-3 fixed-top">
       <h2>Mykhailo Zakharkiv Portfolio</h2>
-      <ul className="nav justify-content-end">
+      <ul className="nav justify-content-around">
         <li className="nav-item">
           <Link to="/" className="nav-link nav-a">
             About Me
