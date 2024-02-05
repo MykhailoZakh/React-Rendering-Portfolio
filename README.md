@@ -1,5 +1,7 @@
 # React-Rendering-Portfolio
 
+My portfolio web application
+
 ## Description
 
 In this project I wanted to create React application that will render different pages in different routes. I added different rendering points like:
@@ -20,20 +22,17 @@ In this project I wanted to create React application that will render different 
 
 In this section I provided screenshots of live web application
 
-![alt text](assets/images/screenshot1.png "First Screenshot")
-![alt text](assets/images/screenshot2.png "Second Screenshot")
-![alt text](assets/images/screenshot3.png "Third Screenshot")
-![alt text](assets/images/screenshot4.png "Fourth Screenshot")
+![alt text](assets/images/screenshot1.jpg "First Screenshot")
+![alt text](assets/images/screenshot2.jpg "Second Screenshot")
+![alt text](assets/images/screenshot3.jpg "Third Screenshot")
+![alt text](assets/images/screenshot4.jpg "Fourth Screenshot")
 
 ## Links
 
-In this section I added links to the Live Application and to the GitHub repositories with the original and modified codebase.
+In this section I added links to the Live Application and to the GitHub repository of the original code base.
 
 Live App:
-https://portable-text-editor.onrender.com
+https://main--teal-queijadas-e3878a.netlify.app/
 
-Original GitHub Code Repository:
-https://github.com/coding-boot-camp/cautious-meme
-
-Modified GitHub Code Repository:
-https://github.com/MykhailoZakh/Portable-Text-Editor
+GitHub Code Repository:
+https://github.com/MykhailoZakh/React-Rendering-Portfolio
