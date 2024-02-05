@@ -4,3 +4,23 @@
   margin: 10px 10% 10px 10%;
   border-radius: 10px;
 }
+
+/* style for mobile version where pdf obj not reading */
+.pdf-img {
+  height: 100%;
+  width: 80%;
+  margin: 10px 10% 10px 10%;
+  display: block;
+  border: 2px black solid;
+  box-shadow: 11px 9px 9px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 3px;
+}
+
+.dowPdf {
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.dowPdf:hover {
+  transform: scale(1.1);
+}

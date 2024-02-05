@@ -3,15 +3,20 @@ export default function Resume() {
   return (
     <section>
       <h2>Resume</h2>
-      {/* <object className="pdf" type="application/pdf" data="./resume.pdf">
+      <object className="pdf" type="application/pdf" data="./resume.pdf">
         <p>
-          This browser does not support PDFs. Please download the PDF to view
-          <a href="./resume.pdf" download="Mykhailo-Profile">
-            Download PDF
-          </a>
+          <img src="./resume.jpg" className="pdf-img" />
+          <p className="d-flex justify-content-around ">
+            <a
+              href="./resume.pdf"
+              download="Mykhailo-Profile"
+              className="dowPdf"
+            >
+              Download PDF 📑
+            </a>
+          </p>
         </p>
-      </object> */}
-      <iframe src="./resume.pdf" className="pdf"></iframe>
+      </object>
     </section>
   );
 }
