@@ -8,7 +8,7 @@ export default function Card({bgImage, gitLink, languages, name, smallDesc}) {
   return (
     <section
       className="card text-center col-sm-12 col-md-12 col-lg-5 mb-4 mx-1 my-3 "
-      style={{backgroundImage: `url("public/projectData/bgImg/${bgImage}")`}}
+      style={{backgroundImage: `url("./projectData/bgImg/${bgImage}")`}}
     >
       <div className="card-header">
         <ul className="nav nav-pills card-header-pills">

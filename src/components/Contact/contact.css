@@ -3,7 +3,7 @@
 }
 
 .bg {
-  background-image: url("public/contactBG.jpg");
+  background-image: url("./contactBG.jpg");
   height: 100%;
   display: flex;
   justify-content: center;

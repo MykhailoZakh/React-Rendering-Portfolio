@@ -2,11 +2,7 @@ import "./about.css";
 export default function About() {
   return (
     <section>
-      <img
-        src="public\mykhaportrait.jpg"
-        alt="portrait"
-        className="protfolio"
-      />
+      <img src="./mykhaportrait.jpg" alt="portrait" className="protfolio" />
       <h2>About Me</h2>
       <p className="about">
         Welcome to my profile! I'm Mykhailo Zakharkiv, a fresh-faced programmer
