@@ -1,5 +1,7 @@
 import {useState} from "react";
 import "./contact.css";
+
+// function to print contact me form
 export default function Contact() {
   const [name, setName] = useState(false);
   const [email, setEmail] = useState(false);
@@ -25,6 +27,7 @@ export default function Contact() {
       setEmail(false);
     }
   };
+  // function to check if user add any text
   const checkText = (e) => {
     e.preventDefault();
     !e.target.value ? setText(true) : setText(false);

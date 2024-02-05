@@ -1,3 +1,4 @@
+// function to print Description or Link inside the Card element
 export default function LinkDescription({
   isDescription,
   gitLink,
@@ -11,6 +12,7 @@ export default function LinkDescription({
       className="me-3 img-arr "
     />
   ));
+  // logic to chose wich info to print
   if (!isDescription) {
     return (
       <article className=" d-flex flex-column  gap-5 ">

@@ -2,7 +2,7 @@ import {useState} from "react";
 // importing functions for rendering
 import LinkDescription from "./LinkDescription";
 
-// Card function to print Project cards in Portfolio screen
+// Card function to print Project cards in Portfolio screen at group parent element
 export default function Card({bgImage, gitLink, languages, name, smallDesc}) {
   const [desc, setDesc] = useState(true);
   return (
@@ -37,6 +37,7 @@ export default function Card({bgImage, gitLink, languages, name, smallDesc}) {
         </ul>
       </div>
       <h2 className="cardH">{name}</h2>
+      {/* printinf Description or Link section inside the card depending on button clikc */}
       <LinkDescription
         isDescription={desc}
         gitLink={gitLink}

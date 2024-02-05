@@ -5,6 +5,7 @@ import data from "../../../public/projectData/projects";
 import Group from "./Group";
 // function to print Portfolio page
 export default function Portfolio() {
+  // creating array of Group elements
   const groupsArr = data.map((group) => (
     <Group
       key={group.key}
@@ -15,6 +16,7 @@ export default function Portfolio() {
   return (
     <section className="wrapper ">
       <h2>Portfolio</h2>
+      {/* printing array of Group Elements*/}
       {groupsArr}
     </section>
   );

@@ -1,4 +1,6 @@
+// importing styles for page
 import "./about.css";
+// exporting function to pring About me page
 export default function About() {
   return (
     <section>

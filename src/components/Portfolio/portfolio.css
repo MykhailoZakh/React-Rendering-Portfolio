@@ -6,6 +6,7 @@
   border-radius: 20px;
   min-height: 450px;
   box-shadow: 0px 1px 29px 5px rgba(0, 0, 0, 0.75);
+  background-size: contain;
 }
 .card-footer {
   background: none;

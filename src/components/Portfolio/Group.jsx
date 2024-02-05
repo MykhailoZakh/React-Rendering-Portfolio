@@ -14,7 +14,9 @@ export default function Group({groupName, projectArr}) {
   ));
   return (
     <div className="container">
+      {/* header with group name */}
       <h2 className="row">{groupName}</h2>
+      {/* container with all projects for this group  */}
       <div className="row d-flex justify-content-around">{pArr}</div>
     </div>
   );

@@ -1,5 +1,6 @@
 import "./footer.css";
 
+// function to add footer to all screens
 export default function Footer() {
   return (
     <footer>

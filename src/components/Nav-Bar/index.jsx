@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
 import "./nav.css";
 
+// function to add nav bar with all elements
 function NavBar() {
   return (
     <nav className="navbar px-3 py-3 fixed-top">
