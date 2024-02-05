@@ -4,7 +4,7 @@
 }
 
 .bg {
-  background-image: url("/contactBG.jpg");
+  background-image: url("./contactBG.jpg");
   height: 100%;
   display: flex;
   justify-content: center;
