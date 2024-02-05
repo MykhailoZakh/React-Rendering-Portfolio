@@ -8,11 +8,11 @@ export default function Footer() {
           <img src="/public/github.svg" className="footerIco round"></img>
         </a>
         <a href="https://www.linkedin.com/in/mykhailo-zakharkiv-359832286/">
-          <img src="/public/linkedin.svg" className="footerIco"></img>
+          <img src="./linkedin.svg" className="footerIco"></img>
         </a>
         <a href="https://stackoverflow.com/users/22684216/mykhailo-zakharkiv">
           <img
-            src="/public/stack-overflow.svg"
+            src="./public/stack-overflow.svg"
             className="footerIco round"
           ></img>
         </a>
